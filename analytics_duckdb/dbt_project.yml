@@ -13,4 +13,10 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
+# In this config , we tell dbt to build all models as table by default
+
+models:
+  analytics_duckdb: 
+    +materialized: table
+
 
