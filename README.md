@@ -88,7 +88,7 @@ SELECT * FROM monthly_summary;
 ```bash
 uv sync
 uv run python scripts/download_data.py
-cd analytics && uv run dbt build
+cd analytics_duckdb && uv run dbt build
 ```
 
 Optional docs locally:
