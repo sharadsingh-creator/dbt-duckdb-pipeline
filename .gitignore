@@ -16,3 +16,7 @@ data/
 logs/
 .vscode
 
+
+# dbt generated
+target/
+dbt_packages/
