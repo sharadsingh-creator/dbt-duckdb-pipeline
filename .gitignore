@@ -18,5 +18,6 @@ logs/
 
 
 # dbt generated
-target/
+target/private
 dbt_packages/
+.user.yml
