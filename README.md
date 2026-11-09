@@ -113,7 +113,3 @@ uv run dbt docs serve
 │   └── models/                       # sources, staging, marts, schema.yml
 └── scripts/download_data.py          # fetch raw parquet before build
 ```
-
----
-
-*Reference build for Project #1 of the [dbt for Data Analytics & Engineering course](https://www.lukebarousse.com) (lessons 1.01–2.02) — students build this repo themselves and compare against this version. Dataset: real job postings scraped daily.*
